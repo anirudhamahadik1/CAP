@@ -1,0 +1,21 @@
+.dash-sidebar{background-color:#333333;}
+.dash-sidebar h1 {
+	margin:0px;
+	padding-top:10px;
+	color:#F5F5F5;
+}
+.dash-sidebar .nav{
+	margin-top:20px;
+}
+.dash-sidebar .nav li a{color:#F5F5F5;}
+.dash-sidebar .nav li a:hover{color:#333333;}
+.dash-sidebar .nav li.active>a, .nav li.active>a:hover, .nav li.active>a:focus{
+	background-color:#337AB7;
+	color:#F5F5F5;
+}
+.dash-content{padding-top:20px;}
+
+@media screen and (min-width:768px){
+	.dash-sidebar h1 {padding-top:10px;}
+	.dash-sidebar{min-height:700px;}
+}
