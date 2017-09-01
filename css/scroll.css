@@ -1,0 +1,11 @@
+.scroll-div{
+	max-height:450px;
+	max-width:450px;
+	overflow:hidden;
+}
+.scroll-div:hover{overflow:scroll;}
+
+@media screen and (min-width: 767px){
+	.scroll-div{max-width:100%;}
+	.scroll-div:hover{overflow-x:hidden;}
+}
